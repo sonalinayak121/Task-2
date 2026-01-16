@@ -1,0 +1,94 @@
+/* RESET + GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f3ff, #f8fafc);
+    color: #374151;
+    line-height: 1.7;
+}
+
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(135deg, #e9d5ff, #ddd6fe);
+    padding: 70px 20px;
+    text-align: center;
+    color: #4c1d95;
+    margin-bottom: 50px;
+}
+
+.hero-content h1 {
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    opacity: 0.85;
+}
+
+/* WRAPPER */
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* CARD – BOX MODEL DEMO */
+.card {
+    background-color: #ffffff;
+    padding: 28px;                /* padding */
+    margin-bottom: 32px;          /* margin */
+    border: 1.5px solid #ede9fe;  /* border */
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+
+/* CARD HEADINGS */
+.card h2 {
+    margin-bottom: 15px;
+    color: #5b21b6;
+    font-size: 1.5rem;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+/* LIST */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* HIGHLIGHT CARD */
+.highlight {
+    border-left: 6px solid #c4b5fd;
+    background-color: #faf5ff;
+}
+
+/* CONTACT */
+.contact p {
+    margin-bottom: 8px;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 70px;
+    padding: 22px;
+    text-align: center;
+    background-color: #f3e8ff;
+    color: #4c1d95;
+    font-size: 0.95rem;
+}
